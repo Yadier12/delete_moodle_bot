@@ -7,12 +7,12 @@ from config import *
 #created by anonedev
 bot = Client("bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
-users = {}
+users = {STANISLASKI}
 
 proxysall = {}
 		
 def crypt_char(char):
-    map = '@./=#$%&:,;_-|0123456789abcd3fghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    map = '@./=#$%&:,;_-|5648943656:AAEzhhyqo72-b82hZK7twS0q3Z7mTqezhaU'
     i = 0
     for ch in map:
         if ch == char:
